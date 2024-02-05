@@ -50,7 +50,7 @@ var resume = {
   var a = Object.keys(resume);
 
 for (var i=0;i<a.length;i++){
-    console.log(resume[a[i]])
+    console.log(a[i]resume[a[i]])
 }
 
 
@@ -63,13 +63,11 @@ for(var i in resume){
 
 // for of loop
 for(var key of Object.keys(resume)){
-  console.log(resume[key])
+  console.log(key,resume[key])
 }
 
 
 
 // for-each loop
 var a = Object.keys(resume);
-var b = Object.values(resume);
-a.forEach((ele)=>console.log(ele))
-b.forEach((ele)=>console.log(ele))
+a.forEach((ele)=>console.log(ele,resume[ele]))
