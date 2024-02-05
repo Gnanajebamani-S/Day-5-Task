@@ -50,7 +50,7 @@ var resume = {
   var a = Object.keys(resume);
 
 for (var i=0;i<a.length;i++){
-    console.log(a[i]resume[a[i]])
+    console.log(a[i],resume[a[i]])
 }
 
 
